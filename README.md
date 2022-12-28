@@ -1,7 +1,7 @@
 # trebsim
 A simulator for whipper-style trebuchets using an approach of rotational dynamics using GNU Octave (a free MatLab equivalent)
 
-Created October 2022
+Created October 2022 (published to GitHub in December 2022)
 ![Screenshot](Screenshot%20from%202022-11-15%2017-33-33.png)
 
 # How to use
