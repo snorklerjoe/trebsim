@@ -1,11 +1,18 @@
 # trebsim
-A simulator for whipper-style trebuchets using an approach of rotational dynamics
+A simulator for whipper-style trebuchets using an approach of rotational dynamics using GNU Octave (a free MatLab equivalent)
 
 Created October 2022
 ![Screenshot](Screenshot%20from%202022-11-15%2017-33-33.png)
 
+# How to use
+Enter the parameters of the trebuchet into parameters.m, and run sim.m
+
+
 # How it Works
 This treats the whipper trebuchet as a system of rods and point masses to approximate its motion and dynamics.
+Octave's numerical ODE algorithm is then used to solve the resulting differential equations.
+
+The diagram below shows the variables that are used:
 ![Variable Diagram](variables.jpg)
 
 # Shortcomings
